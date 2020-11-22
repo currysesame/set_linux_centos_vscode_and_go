@@ -1,0 +1,40 @@
+
+$ sudo dnf install epel-release
+$ sudo dnf upgrade
+
+$ sudo yum install snapd
+
+$ sudo systemctl enable --now snapd.socket
+$ sudo ln -s /var/lib/snapd/snap /snap
+
+reboot
+
+$ sudo snap install --classic code
+
+.vscode
+
+
+cd to the file which need to save the project with the clang.
+
+$ code .  //to open vscode
+
+https://medium.com/@tarangnpatel/visual-studio-code-c-programming-on-linux-c990b9705314
+
+install extension C/C++ on vscode
+
+
+c_cpp_properties.json
+
+ctrl + shift + p 
+task: configure task
+click create tasks.json file from templates
+select others
+
+vs command box 
+
+ctrl shift b
+no build tasks select the building_code.c(must create the building_code.c first)
+label are the same.
+
+now good to run the code building_code.c
+
